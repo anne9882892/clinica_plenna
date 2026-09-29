@@ -1,0 +1,36 @@
+SITE CLINICA MEDICA PLENNA
+Abra o arquivo index.html no navegador (duplo clique) para ver o site.
+
+ONDE COLOCAR SUAS IMAGENS (formato .jpg, com estes nomes exatos, sem acento):
+
+images/ultrassom/
+  ultrassom.jpg                       -> aparece na pagina de Ultrassonografia e na secao de ultrassom da pagina inicial
+
+images/especialidades/
+  pediatria.jpg
+  alergia-e-imunologia.jpg
+  clinica-geral.jpg
+  nutrologia.jpg
+  ortopedia-e-traumatologia.jpg
+  cirurgia-vascular.jpg
+  urologia.jpg
+  ginecologia-e-obstetricia.jpg
+  dermatologia-clinica-e-estetica.jpg
+
+images/infantil/
+  fonoaudiologia.jpg
+  neuropsicopedagogia.jpg
+  neuropsicologia.jpg
+
+images/
+  logo.png       -> logo da clinica (troque mantendo o nome)
+  fachada.png    -> foto da fachada (Hero, secoes e localizacao)
+
+Dica: use fotos horizontais (proporcao 16:11), com pelo menos 1200 px de largura.
+Se o arquivo nao existir, o site mostra automaticamente o painel azul no lugar.
+
+ONDE EDITAR TEXTOS E DADOS:
+index.html         -> textos, endereco, WhatsApp, links das paginas
+js/main.js         -> lista de especialidades/profissionais (P), infantil (I) e exames de ultrassom (U)
+css/style.css      -> cores e visual (cores no inicio, em :root)
+Instagram: procure "REDES SOCIAIS" no rodape do index.html e troque <span>Instagram</span> por <a href="SEU-LINK">Instagram</a>.
